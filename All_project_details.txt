@@ -1,0 +1,25 @@
+Dropship model is an online proposition where 3rd parties sell stock via M&S.com but dispatch goods directly to the customer, 
+Dropship program will deliver a third operating model; Wholesale, Consignment and Cost models.
+
+Carrier Gateway API is an RESTful API providing a single interface for accessing various carriers used by M&S. Using this API,
+one can create consignments and generate label from different supported carriers. In this context, "Carrier" refers to the companies which provides service for mail/package delivery, 
+for example: RoyalMail, DPD, Ukmail and ParcelForce.
+
+
+This application enables store users to efficiently fulfill customer orders placed on .com directly from the store. 
+It streamlines the order fulfillment process by assisting store associates in picking the right items and packing them for delivery, ensuring a smooth and accurate shopping experience for customers.
+SPPD full form - Store Pick Pack Dispatch
+
+
+
+SEA2 (Stock Engine Adaptor V2)  it is use for mark product pickable or not pickable in store. sea2 getting data from SAP system via EM and calculating pickability in sea2. sent data to oms, availability ,  pim
+
+
+Gift card builder is used for creating unique links for egiftcard, supports spark cache function.
+
+
+Parcel Summary Used to generate 4 kinds of report.
+Dispatch Note - Physical gift cards B2B
+2. Invoice_VAT
+3. Invoice_Proforma
+4. Invoice_Receipt 
