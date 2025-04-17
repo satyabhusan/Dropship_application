@@ -1,0 +1,51 @@
+
+Carrier Gateway – Key Achievements
+Application Ownership & Maintenance:
+Recognized as the primary point of contact for the Carrier Gateway application, managing all aspects of support and enhancement over the past year.
+Led codebase refactoring efforts to improve maintainability.
+Handled SSL certificate renewals, cluster upgrades, and implemented robust exception handling mechanisms to enhance system resilience and fault tolerance along with day-to-day code developments.
+Royal Mail V4 Integration:
+Spearheaded the full-cycle development and deployment of the Royal Mail V4 API integration.
+Built secure API communication channels and designed workflows for label generation.
+Applied performance tuning techniques to reduce latency in interactions with Royal Mail services, leading to significant improvements in system responsiveness.
+Feature Toggling & Phased Rollout:
+Designed and implemented a dynamic feature toggling system for controlled, phased deployments.
+Successfully onboarded over 270 stores in a staged rollout, ensuring zero downtime and a smooth transition.
+Dropship Application – Key Achievements
+Testing & Deployment Pipelines:
+Set up CI/CD pipelines for automated testing and deployments using GitHub Actions and Azure DevOps.
+Wrote integration and E2E tests to ensure platform stability.
+BDD Strategy Implementation:
+Introduced and adopted the BDD approach to bridge the gap between business stakeholders and developers/testers.
+Promoted collaboration using Gherkin syntax (Given-When-Then) to clearly describe user stories and expected behavior.
+Go-Live & Monitoring:
+Successfully launched the application in Inventory Mediator, Dropship Order Mediator, and CC Mediator production environments.
+Set up logging, monitoring (Azure Monitor), and alerting to ensure smooth operations.
+Wrote alerts and created dashboards to facilitate easy monitoring and quick resolution of production issues.
+Spring Boot Upgrade & Codebase Optimization – Key Achievements
+Spring Boot Upgrade Across Applications:
+Successfully upgraded all microservices from older Spring Boot versions to the latest stable release (e.g., Spring Boot 3.x).
+Ensured compatibility with new features like Jakarta EE namespace changes, and migrated deprecated components.
+Updated related dependencies (e.g., Spring Cloud, Spring Security) to match the upgraded framework version, ensuring seamless integration.
+Dependency & Module Synchronization:
+Audited and cleaned up Gradle configurations across the codebase to ensure consistent, conflict-free builds.
+Standardized versions of shared libraries and third-party dependencies to reduce runtime issues and simplify future maintenance.
+Improved build reliability and reduced CI/CD pipeline failures due to dependency mismatches.
+SonarQube Code Quality Enhancements:
+Resolved high and medium-priority SonarQube issues, including code smells, bugs, and security vulnerabilities.
+Refactored legacy code and applied clean coding principles to enhance maintainability and readability.
+Achieved a significantly improved Sonar Quality Gate score, contributing to better long-term health of the codebase.
+Testing and Validation:
+Conducted comprehensive regression testing to ensure business functionality remained intact post-upgrade.
+Enhanced existing test cases and increased code coverage where gaps were identified.
+Collaborated with QA and DevOps teams to verify stability across dev, QA, and production environments.
+Deployment and Monitoring:
+Successfully deployed the upgraded and optimized services to Azure Kubernetes with minimal incidents.
+Monitored post-deployment metrics to confirm performance improvements and system reliability.
+Production Support Achievements:
+Delivered consistent and reliable production support for mission-critical applications such as Dropship and ISF, ensuring smooth operations across multiple integrated services like Inventory Mediator, Order Mediators, CC Mediator, Carrier Gateway, and Store Collection.
+Improved incident response efficiency by streamlining log analysis, root cause identification, and resolution processes, significantly reducing Mean Time to Resolution (MTTR).
+Collaborated closely with development, infrastructure, and business teams to implement hotfixes, validate deployments, and ensure SLA compliance in a high-pressure production environment.
+Delivering 24x7 production support, including incident monitoring, troubleshooting, and coordination with cross-functional teams to maintain application stability."
+Key Achievement:
+Star Performer Award Nomination: Recognized by both client and manager for exceptional contributions, consistent delivery and driving impactful improvements across key projects.
