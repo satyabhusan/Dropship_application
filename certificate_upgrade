@@ -1,0 +1,15 @@
+reruired URL  
+
+https://www.sslchecker.com/csr/decode
+
+https://www.base64encode.org/
+
+CommonName : cg-stg.dotcom.apps.mnscorpdev.net
+
+Keyvault : dot-eun-nprod-webeng-kv1 
+
+kubectl -n cg-prod get secret webengg-cg-apps  -o yaml> secrets.yaml       ---> webengg-cg-apps last year secrets --> command to export last year cert
+
+There is new certificate mail , we can export and add in cpwebengg new secrets new key 
+
+New key certificate team will create in AKV . Go to AKV and CG -> search private key 
