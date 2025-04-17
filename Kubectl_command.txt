@@ -1,0 +1,10 @@
+kubectl exec -it pod/int-dropship-invmediator-6897b46cfb-mxvph bash -n oms-int-namespace
+
+kubectl port-forward int-returnshub-55759f8d75-mkwzr  8080:9443 -n oms-int-namespace
+
+helm  upgrade  orderservice . --values=values-int.yaml -n oms-int-namespace 
+ 
+helm  install  orderservice . --values=values-int.yaml -n oms-int-namespace
+
+kubectl scale deploy api-carrier-gateway -n cg-dr --replicas=0
+
