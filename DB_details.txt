@@ -1,1 +1,33 @@
+ CG : Azure Data studio : SQL server 
+non prod : doteunnprodsql0001.database.windows.net
+prod : doteunprodsql0001.database.windows.net
+
+DB_SERVERNAME=doteunprodsql0001
+DB_ADMIN_PASSWORD=Dotcom@12345
+DB_ADMIN_USERNAME=MNSDbAdmin
+
+
+
+
+DROPship DB details : 
+
+
+
+
+SPPD db details : 
+Mongo UI : https://account.mongodb.com/account/login
+email : Satya.barik@mnscorp.net
+
+SPPD DB compass : 
+
+
+
+
+
+
+
+
+
+
+
 
