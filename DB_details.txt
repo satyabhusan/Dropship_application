@@ -10,7 +10,9 @@ DB_ADMIN_USERNAME=MNSDbAdmin
 
 
 DROPship DB details : 
-
+DB_HOST: dsadevdb.postgres.database.azure.com
+username : dsaadmin
+password : DSA_PGDB_PASSWD
 
 
 
@@ -19,6 +21,8 @@ Mongo UI : https://account.mongodb.com/account/login
 email : Satya.barik@mnscorp.net
 
 SPPD DB compass : 
+
+MONGO_DB_HOST": "mongodb+srv://isf-giftcard:6dXcLop6b6q8mA10@cluster0.5yzdi.mongodb.net/sppdperf?retryWrites=true&w=majority&maxPoolSize=200"
 
 
 
